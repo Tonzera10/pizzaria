@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Botao = styled.button`
-      width: 25vw;
+      width: 307px;
     border: none;
     background-color: #FFC77D;
     height: 8vh;

@@ -2,18 +2,18 @@ import React from "react"
 import Button from "../Button"
 import { CardEstilizado, TextoH4, ImagemCard, TextoValor, TextoParagrafo, Etiqueta, CheckBox } from "./styled"
 
-const Card = () => {
+const Card = ({nome, preco, imagem}) => {
 
     return (
         <div>
             <CardEstilizado>
                 <TextoParagrafo>Sabor:</TextoParagrafo>
 
-                <TextoH4></TextoH4>
+                <TextoH4>{nome}</TextoH4>
 
-                <ImagemCard src="" />
+                <ImagemCard src={imagem} />
 
-                <TextoValor>Preço:</TextoValor>
+                <TextoValor>Preço: {preco}</TextoValor>
 
                 <TextoParagrafo>Tamanho:</TextoParagrafo>
 

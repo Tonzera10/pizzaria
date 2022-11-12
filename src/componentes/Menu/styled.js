@@ -8,9 +8,9 @@ export const Titulo = styled.h2`
 `
 export const MenuCards = styled.div`
     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap:10px;
+    gap: 96px;
 `

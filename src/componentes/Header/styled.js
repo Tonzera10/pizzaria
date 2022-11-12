@@ -41,5 +41,8 @@ export const ImagemNav = styled.img`
     width: 5vw;
     padding: 5px;
 `
+export const BotaoFormulario = styled.button`
+    display: none;
+`
 
 
